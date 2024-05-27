@@ -3,7 +3,7 @@ body {
     font-family: Bilbo, typeSETIt;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #000000;
 }
 
 header {
@@ -97,6 +97,26 @@ main {
     margin: 20px 0;
 }
 
+.product-description {
+    color: #ffffff; /* Escolha a cor que você preferir */
+    font-size: 1.1em; /* Tamanho da fonte opcional */
+}
+
+.buy-button, .explore-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.buy-button:hover, .explore-button:hover {
+    background-color: #555;
+}
+
 .buy-button {
     display: inline-block;
     padding: 10px 20px;
@@ -125,8 +145,45 @@ main {
 }
 
 .back-button:hover {
-    background-color: #aaa;
+    background-color: #ffd000;
 }
+
+.thank-you-message {
+    margin: 50px 0;
+}
+
+.thank-you-message p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.footer-info {
+    text-align: left;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
 
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
